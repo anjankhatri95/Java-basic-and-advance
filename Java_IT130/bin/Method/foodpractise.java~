@@ -1,0 +1,21 @@
+public class foodpractise extends orderpractise{
+  private String Type;
+  private String name;
+  private int Quantity;
+  private double price;
+  
+  public foodpractise(){
+    super();
+   this.Type="";
+   this.name="";
+   this.Quantity=0;
+   this.price=0.00;
+  }
+  public foodpractise(int OrderNumber, String OrderType,String Type,String Name,int Quantity,double Price){
+   super(OrderNumber,OrderType);
+  
+  }
+
+}
+  
+}

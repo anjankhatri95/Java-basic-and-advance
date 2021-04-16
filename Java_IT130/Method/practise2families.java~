@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class practise2families{
+  public static void main(String [] args){
+    Scanner input =new Scanner(System.in);
+    System.out.print("How many family's member do you have? ");
+    int member= input.nextInt();
+    
+    int arrayofmembr[]= new int[member];
+   
+  }
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class CashRegister{
+  public static void main(String [] args){
+    
+   Scanner input= new Scanner(System.in);
+   
+   System.out.println("Event Ticket Reservation (cash only)");
+   
+   System.out.println("Name of Customer: ");
+   String Name= input.nextLine();
+  }
+}

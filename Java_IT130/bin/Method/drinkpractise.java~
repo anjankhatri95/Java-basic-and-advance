@@ -1,0 +1,22 @@
+public class drinkpractise extends orderpractise{
+   private String Dname;
+   private int quantity;
+   private double price;
+   
+   public drinkpractise(){
+    super();
+    this.Dname="";
+    this.quantity=0;
+    this.price=0.00;
+    
+   } public drinkpractise(int OrderNumber, String OrderType, String Dname, int quantity, double price){{
+    super(OrderNumber, OrderType);
+    this.Dname=Dname;
+    this.quantity=quantity;
+    this.price=price;
+    
+   }
+   
+     
+   }
+}

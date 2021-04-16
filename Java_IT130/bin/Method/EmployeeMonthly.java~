@@ -1,0 +1,11 @@
+public class EmployeeMonthly extends Employee{
+  private double salary;
+  
+    public void setSalary(double salary){//setting a name to use by the empployeemonthly
+    this.salary= salary;
+      }
+    
+    public double getSalary(){
+     return this.salary; 
+    }
+}

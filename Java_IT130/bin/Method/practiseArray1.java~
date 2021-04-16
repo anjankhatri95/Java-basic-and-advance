@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class practiseArray1{
+  public staic void main(String [] args){
+    Scanner input= new Scanner(System.in);
+    
+    System.out.print("Enter Student name: ");
+    String Name= input.nextLine();
+    
+    
+    
+  }
+}

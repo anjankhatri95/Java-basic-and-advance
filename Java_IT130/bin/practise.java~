@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class practise{
+  public static void main(String [] args){
+    Scanner input= new Scanner(System.in);
+    
+    System.out.print("Delivery Serivce");
+     System.out.print("\nEnter Distance (1) Local - (2) Long Distance: ");
+     int distance= input.nextInt();
+     
+    
+  }
+}
